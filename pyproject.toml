@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "genai-tools"
+version = "0.1.0"
+description = ""
+authors = ["Victor Rojo <48607816+vicrojo@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+boto3 = "^1.35.76"
+langchain = "^0.3.10"
+gradio = "^5.8.0"
+chromadb = "^0.5.23"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
